@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="Utilities.ExtentReportUtilities"/>
+  </listeners>
+  <test thread-count="5" name="Test1(failed)">
+    <parameter name="excelName" value="product_info"/>
+    <classes>
+      <class name="TestCases.TC_001_Capturing_Featured_devices_info">
+        <methods>
+          <include name="driverSetup"/>
+          <include name="driverClose"/>
+          <include name="capture_featured_products"/>
+          <include name="createCustomer"/>
+        </methods>
+      </class> <!-- TestCases.TC_001_Capturing_Featured_devices_info -->
+    </classes>
+  </test> <!-- Test1(failed) -->
+</suite> <!-- Failed suite [Suite] -->

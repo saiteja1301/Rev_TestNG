@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<test name="Test1">
+		<listeners>
+			<listener class-name="Utilities.ExtentReportUtilities"></listener>
+		</listeners>
+		<parameter name="excelName" value="product_info"></parameter>
+		<classes>
+			<class name="TestCases.TC_001_Capturing_Featured_devices_info" />
+		</classes>
+	</test>
+</suite>

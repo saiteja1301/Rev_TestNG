@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-04-05T17:19:50 IST" name="Suite" finished-at="2026-04-05T17:21:06 IST" duration-ms="75500">
+    <groups>
+    </groups>
+    <test started-at="2026-04-05T17:19:50 IST" name="Test1" finished-at="2026-04-05T17:21:06 IST" duration-ms="75500">
+      <class name="TestCases.TC_001_Capturing_Featured_devices_info">
+        <test-method is-config="true" signature="driverSetup(java.lang.String)[pri:0, instance:TestCases.TC_001_Capturing_Featured_devices_info@558bdf1f]" started-at="2026-04-05T17:19:50 IST" name="driverSetup" finished-at="2026-04-05T17:20:13 IST" duration-ms="22104" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[product_info]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverSetup -->
+        <test-method signature="createCustomer()[pri:1, instance:TestCases.TC_001_Capturing_Featured_devices_info@558bdf1f]" started-at="2026-04-05T17:20:13 IST" name="createCustomer" finished-at="2026-04-05T17:20:35 IST" duration-ms="22886" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createCustomer -->
+        <test-method signature="capture_featured_products()[pri:2, instance:TestCases.TC_001_Capturing_Featured_devices_info@558bdf1f]" started-at="2026-04-05T17:20:36 IST" name="capture_featured_products" finished-at="2026-04-05T17:21:02 IST" duration-ms="26214" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- capture_featured_products -->
+        <test-method is-config="true" signature="driverClose(java.lang.String)[pri:0, instance:TestCases.TC_001_Capturing_Featured_devices_info@558bdf1f]" started-at="2026-04-05T17:21:02 IST" name="driverClose" finished-at="2026-04-05T17:21:06 IST" duration-ms="3731" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[product_info]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverClose -->
+      </class> <!-- TestCases.TC_001_Capturing_Featured_devices_info -->
+    </test> <!-- Test1 -->
+  </suite> <!-- Suite -->
+</testng-results>
