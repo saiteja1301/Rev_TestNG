@@ -730,3 +730,23 @@
 18:55:08.621 [main] INFO  BasePackage.BaseClass - After Navigation, We need to switch to iframe again as the driver instance is rooted back to default content
 18:55:09.976 [main] INFO  BasePackage.BaseClass - Writing the data in the workbook to the final file
 18:55:14.467 [main] INFO  BasePackage.BaseClass - WebDriver has been closed.
+18:42:21.568 [main] INFO  BasePackage.BaseClass - Chrome browser launched on local machine
+18:42:27.343 [main] INFO  BasePackage.BaseClass - Switching to the iframe
+18:42:44.688 [main] INFO  BasePackage.BaseClass - Capturing the list of onsale prods
+18:42:47.412 [main] INFO  BasePackage.BaseClass - Iterating through the captured list of onsale prods to get the price and discount info
+18:42:47.418 [main] INFO  BasePackage.BaseClass - Re-Capturing the list of onsale prods as there might be a chance of getting a staleElementReference Exception due to forth and back Navigation
+18:42:47.477 [main] INFO  BasePackage.BaseClass - Scroll into the view
+18:42:47.495 [main] INFO  BasePackage.BaseClass - Click on the onsale item 1
+18:42:48.934 [main] INFO  BasePackage.BaseClass - Get the discounted price and load it in the work book
+18:42:48.980 [main] INFO  BasePackage.BaseClass - Get the discount percentage and load it in the work book
+18:42:48.980 [main] INFO  BasePackage.BaseClass - Navigate back to the home page
+18:42:48.990 [main] INFO  BasePackage.BaseClass - After Navigation, We need to switch to iframe again as the driver instance is rooted back to default content
+18:42:49.858 [main] INFO  BasePackage.BaseClass - Re-Capturing the list of onsale prods as there might be a chance of getting a staleElementReference Exception due to forth and back Navigation
+18:42:49.927 [main] INFO  BasePackage.BaseClass - Scroll into the view
+18:42:49.945 [main] INFO  BasePackage.BaseClass - Click on the onsale item 2
+18:42:54.063 [main] INFO  BasePackage.BaseClass - Get the discounted price and load it in the work book
+18:42:54.095 [main] INFO  BasePackage.BaseClass - Get the discount percentage and load it in the work book
+18:42:54.111 [main] INFO  BasePackage.BaseClass - Navigate back to the home page
+18:42:54.115 [main] INFO  BasePackage.BaseClass - After Navigation, We need to switch to iframe again as the driver instance is rooted back to default content
+18:42:55.391 [main] INFO  BasePackage.BaseClass - Writing the data in the workbook to the final file
+18:42:55.574 [main] INFO  BasePackage.BaseClass - WebDriver has been closed.
